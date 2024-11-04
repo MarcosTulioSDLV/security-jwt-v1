@@ -18,9 +18,9 @@ Users can have multiple roles simultaneously, enabling them to perform both aa a
 ## Database Initialization with Default Data
 For this project, default users and products have been created for quick testing using the scheme.sql and data.sql files. Additionally, endpoints are available to registering new users, logging in, and subsequently adding new products. The default users were created with the following credentials:
 
-Username: marcos, Password: 123 (USER role).
+- Username: marcos, Password: 123 (USER role).
 
-Username: maria, Password: 123 (ADMIN role).
+- Username: maria, Password: 123 (ADMIN role).
 
 ## API Endpoints
 The API provides the following endpoints:
