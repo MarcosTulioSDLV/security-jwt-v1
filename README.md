@@ -13,7 +13,7 @@ The API uses Spring Security for authentication control. The following roles are
 USER -> Standard user role only for basic product operations (get available products).
 ADMIN -> Admin role for advanced product operations (registration, updates, or deletions). In addition to product operations, this role allows other actions, such as getting and registering users.
 ```
-Users can have multiple roles simultaneously, enabling them to perform both aa and advanced product operations. To access protected endpoints, the appropriate authentication credentials must be provided in the request header.
+Users can have multiple roles simultaneously, enabling them to perform both basic and advanced product operations. To access protected endpoints, the appropriate authentication credentials must be provided in the request header.
 
 ## Database Initialization with Default Data
 For this project, default users and products have been created for quick testing using the scheme.sql and data.sql files. Additionally, endpoints are available to registering new users, logging in, and subsequently adding new products. The default users were created with the following credentials:
